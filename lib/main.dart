@@ -9,6 +9,7 @@ void main() {
     statusBarColor: Colors.black,
   ));
   runApp(MaterialApp(
+    title: "Timely",
     debugShowCheckedModeBanner: false,
     home: Timer(),
     theme: ThemeData(fontFamily: 'Shot'),
